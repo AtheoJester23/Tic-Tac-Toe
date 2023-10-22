@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.WholeGrid{
+    /* margin-top: 50px; */
+    /* margin-left: 70px; */
+    border-color: gold;
+    width: 300px;
+    height: 300px;
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+
+.Rows{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.Sections{
+    border: solid;
+    cursor: pointer;
+    display: block;
+}
+
+.Game{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gold;
+    
+}
+
+.Move{
+    width: 80px;
+    margin-top: 7px;
+}
+
+.Winner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: gold;
+    font-size: 20px;
+    /* z-index: 2000; */
+    padding: 20px 1fr;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Notes{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.Note{
+    color: rgb(214, 23, 23);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Reset{
+    background-color: maroon;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;   
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 20px;
+    display: grid;
+}
+
+.Turn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #4682B4;
+    font-size: 20px;
+    padding: 20px 1fr;
+    margin-top: 10px;
+    text-align: center;
+}
